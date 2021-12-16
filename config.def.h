@@ -5,12 +5,32 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+ /* static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+  * static char *font = "agave Nerd Font:style=r:pixelsize=16:antialias=true:autohint=true";
+  * static char *font = "Hack Nerd Font:pixelsize=13:antialias=true:autohint=true";
+  * static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+  * static char *font = "JetBrainsMono Nerd Font:style=Medium,Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "mononoki Nerd Font:style=Regular:pixelsize=12:antialias=true:autohint=true";
+  * static char *font = "JetBrainsMono Nerd Font:style=Medium,Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "JetBrains Mono NL:style=Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "JetBrainsMono Nerd Font:style=Medium,Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "Hack:style=Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "JetBrains Mono NL,JetBrains Mono NL Medium:style=Medium,Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "JetBrainsMono Nerd Font:style=Medium,Regular:pixelsize=15:antialias=true:autohint=true";
+  * static char *font = "Agave:style=r:pixelsize=16:antialias=true:autohint=true";
+  * static char *font = "JetBrains Mono:style=Regular:pixelsize=15:antialias=true:autohint=true"
+  * static char *font = "JetBrains Mono NL:style=Medium,Regular:pixelsize=14:antialias=true:autohint=true";
+  * static char *font = "JetBrains Mono NL:style=Medium:pixelsize=16:antialias=true:autohint=true";
+  * static char *font = "JetBrains Mono NL,JetBrains Mono NL Medium:style=Regular:pixelsize=15:antialias=true:autohint=true";
+  * Iosevka,Iosevka Nerd Font:style=Regular,Book:pixelsize=17:antialias=true:autohint=true
+*/
+static char *font = "Iosevka Term:style=Regular:size=12:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+"Material Design Icons Desktop:style=Regular:size=14:antialias=true:autohint=true",
+"Noto Color Emoji:style=Regular:size=14:antialias=true:autohint=true",
+"WenQuanYi Zen Hei Mono,文泉驛等寬正黑,文泉驿等宽正黑:style=Regular:pixelsize=14:antialias=true;autohint=true",
 };
 #endif // FONT2_PATCH
 
@@ -19,7 +39,7 @@ static char *font2[] = {
  *             0 = no border, 100 = border width is same as cell width */
 int borderperc = 20;
 #else
-static int borderpx = 2;
+static int borderpx = 10;
 #endif // RELATIVEBORDER_PATCH
 
 #if OPENURLONCLICK_PATCH
