@@ -254,7 +254,7 @@
  * (https://github.com/lemnos/theme.sh) which expect these colours to be distinct.
  * https://st.suckless.org/patches/osc_10_11_12_2/
  */
-#define OSC_10_11_12_2_PATCH 0
+#define OSC_10_11_12_2_PATCH 1
 
 /* This patch allows you to specify a border that is relative in size to the width of a cell
  * in the terminal.
@@ -374,7 +374,7 @@
  * scroll program.
  * https://st.suckless.org/patches/universcroll/
  */
-#define UNIVERSCROLL_PATCH 0
+#define UNIVERSCROLL_PATCH 1
 
 /* Vertically center lines in the space available if you have set a larger chscale in config.h
  * https://st.suckless.org/patches/vertcenter/
